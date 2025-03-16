@@ -1,0 +1,20 @@
+{
+  "name": "mcp-symbol-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "@zodios/core": "^10.9.6",
+    "symbol-sdk": "^3.2.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "openapi-zod-client": "^1.18.3"
+  }
+}
